@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        * {
+            color: blue;
+        }
+
+        h1 {
+            color: green;
+        }
+
+        .text-merah {
+            font-size: 20px;
+            text-align: center;
+            background-color: black;
+            color: red;
+        }
+
+        #text-kuning {
+            font-size: 20px;
+            text-align: center;
+            background-color: black;
+            color: yellow;
+        }
+
+        div p {
+            color: red;
+        }
+
+        div > div > p {
+            font-weight: bold;
+        }
+
+        .subbagian {
+            font-size: 30px;
+        }
+
+        .subbagian.header {
+            color: blueviolet;
+        }
+
+        .subbagian#text {
+            color: brown;
+        }
+
+        p:hover {
+            background-color: aqua;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Percobaan 2.2 start-->
+    <h1>Pemrograman Web 1</h1>
+    <p class="text-merah">Praktikum Pemrograman Web 1 sesi 2 akan membahas tentang penggunaan CSS</p>
+    <P id="text-kuning">CSS atau <b>cascading style sheets</b> adalah sebuah bahasa  yang digunakan untuk mengatur tampilan suatu halaman web</P>
+    <!-- Percobaan 2.2 end -->
+
+    <!-- Percobaan 2.3 start-->
+    <div>
+        <p>ini adalah paragraf pertama.</p>
+        <div>
+            <p>ini adalah paragraf kedua.</p>
+        </div>
+    </div>
+    <!-- Percobaab 2.3 end -->
+
+    <!-- percobaan 2.4 start -->
+    <div>
+        <div class="subbagian header">Bagian header</div>
+        <p class="subbagian" id="text">ini adalah paragraf</p>
+    </div>
+    <!-- percobaan 2,4 end -->
+</body>
+</html>
